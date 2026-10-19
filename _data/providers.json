@@ -89214,14 +89214,6 @@
    "url": "https://providers.apis.io/providers/empathy-maps/"
   },
   {
-   "description": "Empatica Inc. is an MIT Media Lab spinoff, founded in Cambridge, Massachusetts, that builds FDA-cleared medical wearables — EmbracePlus, EmbraceMini and the EpiMonitor epilepsy monitoring system — together with the Empatica Health Monitoring Platform, a cloud platform for continuous, remote physiological data collection in clinical research and patient monitoring. The platform captures raw sensor streams (PPG/blood volume pulse, electrodermal activity, skin temperature, accelerometer, gyroscope, steps, systolic peaks, participant tags) and derives 300+ digital measures used as digital endpoints by pharmaceutical sponsors and CROs. Programmatic access is delivered three ways: a cloud-to-cloud Cloud API that pushes participant management, wearing compliance and digital biomarker data into a sponsor's CTMS/EDC; an AWS S3 data bucket addressed with Care Portal-issued Data Access Keys, where high-frequency raw data lands every 30 minutes as Apache Avro files; and a live REST host at api.empatica.com backing Empatica's own apps and portals. The Cloud API reference is issued only to contracted clients, so no OpenAPI, AsyncAPI or public API reference is published.",
-   "name": "Empatica",
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/empatica/refs/heads/main/screenshots/empatica-2026-09-02T145349.png",
-   "slug": "empatica",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/empatica/"
-  },
-  {
    "description": "Empirical Security builds data-driven models that predict which vulnerabilities will actually be exploited, so security teams can prioritize remediation by real-world risk instead of raw CVSS severity. It operates the Foundation (global) model, which combines real-time internet exploitation telemetry with EPSS and monitors 18,000+ exploited CVEs; hourly-updated EPSS models (epss_v3, epss_v4, epss_v5); and Radiant, an organization-specific model that layers your local assets, configurations and internal telemetry on top of the Foundation data. The read-only REST API exposes CVE detail, per-model scores and percentiles, malware hashes, critical indicators, score history, change history, full dataset export, search, and saved CVE groups, secured with OAuth 2.0 client credentials (JWT bearer). Empirical Security is backed by Costanoa Ventures.",
    "name": "Empirical Security",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/screenshots/empirical-security-2026-07-25T213247.png",

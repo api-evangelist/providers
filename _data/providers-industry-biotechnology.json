@@ -1,6 +1,6 @@
 {
- "total": 1543,
- "shown": 1000,
+ "total": 1542,
+ "shown": 999,
  "limit": 1000,
  "bands": [
   {
@@ -1694,8 +1694,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 56,
-   "shown": 56,
+   "count": 55,
+   "shown": 55,
    "providers": [
     {
      "name": "Biogen",
@@ -1796,56 +1796,6 @@
       "agentic_commerce": false
      },
      "rank": 34
-    },
-    {
-     "name": "Empatica",
-     "slug": "empatica",
-     "description": "Empatica Inc. is an MIT Media Lab spinoff, founded in Cambridge, Massachusetts, that builds FDA-cleared medical wearables — EmbracePlus, EmbraceMini and the EpiMonitor epilepsy monitoring system — together with the Empatica Health Monitoring Platform, a cloud platform for continuous, remote physiological data collection in clinical research and patient monitoring. The platform captures raw sensor streams (PPG/blood volume pulse, electrodermal activity, skin temperature, accelerometer, gyroscope, steps, systolic peaks, participant tags) and derives 300+ digital measures used as digital endpoints by pharmaceutical sponsors and CROs. Programmatic access is delivered three ways: a cloud-to-cloud Cloud API that pushes participant management, wearing compliance and digital biomarker data into a sponsor's CTMS/EDC; an AWS S3 data bucket addressed with Care Portal-issued Data Access Keys, where high-frequency raw data lands every 30 minutes as Apache Avro files; and a live REST host at api.empatica.com backing Empatica's own apps and portals. The Cloud API reference is issued only to contracted clients, so no OpenAPI, AsyncAPI or public API reference is published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/empatica/refs/heads/main/screenshots/empatica-2026-09-02T145349.png",
-     "score": 38.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 69.6,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 40.5,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 23.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 7.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 35
     },
     {
      "name": "TetraScience",
