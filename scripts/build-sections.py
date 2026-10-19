@@ -720,7 +720,10 @@ TAG_INDUSTRIES = [
         "name": 'Rail',
         "icon": '/industries/assets/icons/rail.png',
         "description": "",
-        "tags": ['rail'],   # roster 8 -> tag-derived 23
+        # roadmap#803: BNSF (tagged Railroad, not Rail) was absent while it is the largest Class I railroad.
+        # NOT `railway` (Nixpacks / Railway.app hosting), `freight rail` (Berkshire Hathaway, the parent) or
+        # `rail freight` (DSV, a forwarder) -- measured 2026-10-19.
+        "tags": ['rail', 'railroad', 'railroads', 'railways'],   # roster 8 -> tag-derived 23
     },
     {
         "slug": 'cannabis',
