@@ -1,12 +1,12 @@
 {
- "total": 1251,
+ "total": 1250,
  "bands": [
   {
    "band": "strong",
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1251,
+   "count": 1250,
    "providers": [
     {
      "name": "Amazon Secrets Manager",
@@ -59520,58 +59520,6 @@
       "agentic_commerce": false
      },
      "rank": 1108
-    },
-    {
-     "name": "Datacircle",
-     "slug": "datacircle",
-     "url": "https://providers.apis.io/providers/datacircle/",
-     "type": "API Provider",
-     "description": "Datacircle is a B2B data co-op API: customers send the original request of a supported data provider (currently the Up2Data, HarvestAPI and Fetchin LinkedIn profile APIs) to api.datacircle.dev with a Datacircle key at the provider's own price with no markup, and receive a daily flat file of pooled co-op data. It also ships a remote MCP server at api.datacircle.dev/mcp.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacircle/refs/heads/main/screenshots/datacircle-2026-10-11T103549.png",
-     "score": 55.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 64.4,
-      "contract_governance": 22.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 47.6,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 50.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 1109
     },
     {
      "name": "Datasaur",

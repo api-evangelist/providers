@@ -78046,14 +78046,6 @@
    "url": "https://providers.apis.io/providers/datacamp/"
   },
   {
-   "description": "Datacircle is a B2B data co-op API: customers send the original request of a supported data provider (currently the Up2Data, HarvestAPI and Fetchin LinkedIn profile APIs) to api.datacircle.dev with a Datacircle key at the provider's own price with no markup, and receive a daily flat file of pooled co-op data. It also ships a remote MCP server at api.datacircle.dev/mcp.",
-   "name": "Datacircle",
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacircle/refs/heads/main/screenshots/datacircle-2026-10-11T103549.png",
-   "slug": "datacircle",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/datacircle/"
-  },
-  {
    "description": "DataCite is a leading global non-profit organization that provides DOI (Digital Object Identifier) registration and persistent identifier services for research outputs, enabling researchers to cite, discover, and access scholarly data. DataCite maintains a REST API for minting and managing DOIs, querying metadata records, and accessing the global research data graph. Membership-based access allows institutions to register DOIs through APIs and the Fabrica web interface, while public metadata retrieval is freely available to anyone. DataCite also offers a GraphQL API, a legacy Metadata Store (MDS) API, usage statistics via its Usage Reports API, and scholarly event tracking via the Event Data API.",
    "name": "DataCite",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/screenshots/datacite-2026-06-20T175634.png",
