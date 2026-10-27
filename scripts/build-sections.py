@@ -1531,7 +1531,7 @@ TAG_INDUSTRIES = [
     },
 ]
 
-RAW_BASE = "https://raw.githubusercontent.com/api-evangelist/%s/refs/heads/main/screenshots/%s"
+RAW_BASE = "https://artifacts.apis.io/%s/screenshots/%s"
 
 BAND_LABELS = {
     "exemplar": "Exemplar", "strong": "Strong", "developing": "Developing",
