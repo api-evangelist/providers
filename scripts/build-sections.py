@@ -39,6 +39,20 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(HERE)
 ROOT = os.path.dirname(os.path.dirname(SITE))
 ALL = os.path.join(ROOT, "all")
+
+# The section rosters used to live in all/0-working/, the pipeline workbench. That directory
+# became its own repo at GitHub/engine/ and all/0-working/ no longer exists, so every roster
+# open() here raised FileNotFoundError and took the whole script down -- on 2026-10-31 the ae
+# stage logged one traceback on market-data-roster.json and built NO section pages at all.
+# Resolve the workbench once, preferring engine/ and falling back to the old path so a machine
+# that still carries all/0-working keeps working.
+def _workbench():
+    for cand in (os.path.join(ROOT, "engine"), os.path.join(ALL, "0-working")):
+        if os.path.isdir(cand):
+            return cand
+    return os.path.join(ROOT, "engine")
+
+WORKBENCH = _workbench()
 PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
 INDUSTRIES_YML = os.path.join(ROOT, "insights-work", "_data", "industries.yml")
 SCORING_YML = os.path.join(ROOT, "api-search", "signals", "_data", "scoring.yml")
@@ -2204,7 +2218,7 @@ def build_roster_section_group(data_dir, meta_of, scores, sections,
         extras = spec[5] if len(spec) > 5 else {}
         labels = extras.get("tier_labels") or tier_labels
 
-        with open(os.path.join(ALL, "0-working", roster_file), "r", encoding="utf-8") as fh:
+        with open(os.path.join(WORKBENCH, roster_file), "r", encoding="utf-8") as fh:
             roster = json.load(fh)
 
         entries = []
@@ -2682,7 +2696,7 @@ def main():
         "crypto":               "Crypto Market Data",
     }
     market_data = []
-    roster_path = os.path.join(ALL, "0-working", "market-data-roster.json")
+    roster_path = os.path.join(WORKBENCH, "market-data-roster.json")
     with open(roster_path, "r", encoding="utf-8") as fh:
         roster = json.load(fh)
     for p in roster["providers"]:
