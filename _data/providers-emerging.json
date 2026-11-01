@@ -1,12 +1,12 @@
 {
- "total": 7468,
+ "total": 7467,
  "bands": [
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 7468,
+   "count": 7467,
    "providers": [
     {
      "name": "Abstract API Phone Validation",
@@ -261747,58 +261747,6 @@
       "agentic_commerce": false
      },
      "rank": 4983
-    },
-    {
-     "name": "Spotlight Rules",
-     "slug": "spotlight-rules",
-     "url": "https://providers.apis.io/providers/spotlight-rules/",
-     "type": "API Provider",
-     "description": "Spotlight Rules is an openly-governed build of the Spectral API linter and, more importantly, the first attempt to publish the Spectral ruleset format as a standalone specification with its own portable JSON Schema — so that an organization's API governance rules stop being configuration for one vendor's CLI and become a durable, tool-independent artifact. Started in 2026 as a project of API Evangelist and maintained in the open under API Commons, it ships four public things: the specification and JSON Schema at spec.spotlight-rules.com, the reference implementation (api-commons/spotlight-tools), eight Apache-2.0 npm packages under the @spotlight-rules scope including the `spotlight` CLI, and a 332-rule best-of-breed governance ruleset compiled from public Spectral rulesets. It publishes no hosted API and no commercial tier — the stated position is open source permanently, funded by earmarked sponsorship rather than a paid version.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotlight-rules/refs/heads/main/screenshots/spotlight-rules-2026-10-11T130235.png",
-     "score": 14.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 35.6,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 10.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 4984
     },
     {
      "name": "TapAd",

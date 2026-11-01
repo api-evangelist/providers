@@ -216,6 +216,9 @@
   description: ''
   tags:
   - rail
+  - railroad
+  - railroads
+  - railways
 - slug: cannabis
   name: Cannabis
   icon: /industries/assets/icons/cannabis.png

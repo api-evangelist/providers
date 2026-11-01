@@ -213,7 +213,7 @@ def titleize(slug):
     return " ".join(p[:1].upper() + p[1:] if p else p for p in parts)
 
 
-RAW_BASE = "https://raw.githubusercontent.com/api-evangelist/%s/refs/heads/main/screenshots/%s"
+RAW_BASE = "https://artifacts.apis.io/%s/screenshots/%s"
 
 
 def newest_screenshot(slug):
